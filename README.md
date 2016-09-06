@@ -1,23 +1,23 @@
 # lab03
 
 ## What do you think is the type of each of the following fields? 
-* private int count; 
-* private Student representative; 
-* private Server host; 
+* private int count; The field type is integer. The user can only input an integer for this to work.
+* private Student representative; The field type is Student.
+* private Server host; The field type is Server.
 
 ## What are the names of the following fields? 
-* private boolean alive;
+* private boolean alive; 
 * private Person tutor; 
 * private Game game; 
 
-## From what you know about the naming conventions for classes, which of the type names in teh above questions would you say are class names? 
-
+## From what you know about the naming conventions for classes, which of the type names in teh above questions would you say are class names? Student, Server, Person, and Game are class names because they are capitalized.
+3
 ## In the following field declaration from the `TicketMachine` class  
 ```
 private int price;
 ```
 does it matter which order the three words appear in? Edit the TicketMachine class to try different orderings. After each change, close the editor. Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are possible? Check by pressing the Compile button to see if there is an error message. Make sure that you reinstate the original version after your experiments! 
-
+It does not matter is "private' is there or not.  However, you cannot switch the order of "private" and "int".  "int" must be present to let the program know that the input has to be an integer.
 
 ## Is it always necessary to have a semicolon at the end of a field declaration? Once again, experiment via the editor. The rule you will learn here is an important one, so be sure to remember it. 
 
